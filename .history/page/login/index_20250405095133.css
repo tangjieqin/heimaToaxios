@@ -1,0 +1,14 @@
+/* 将页面内容（登录表单）在视口中居中显示，并设置背景图片。 */
+html,
+body {
+    height: 100%;
+    /* 让 html 和 body 元素撑满整个视口高度 */
+    /* 设置背景图片：居中、不重复、覆盖整个区域 */
+    background: url('./assets/login-bg.png') no-repeat center/cover;
+    /* display: flex; */
+    /* 启用 Flex 布局 ，也叫弹性布局， 该容器就是Flex容器，子元素也是Flex项目*/
+    /* align-items: center; */
+    /* 垂直居中子元素 */
+    /* justify-content: center; */
+    /* 垂直居中子元素 */
+}
